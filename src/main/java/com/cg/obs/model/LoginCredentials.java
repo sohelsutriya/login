@@ -1,4 +1,4 @@
-package com.cg.model;
+package com.cg.obs.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,9 +8,9 @@ import javax.persistence.Id;
 
 @Entity
 public class LoginCredentials {
-	
+
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int userId;
 	@Column
 	private String username;
@@ -18,7 +18,7 @@ public class LoginCredentials {
 	private String password;
 	@Column
 	private String role;
-	
+
 	public LoginCredentials() {
 		// TODO Auto-generated constructor stub
 	}
@@ -62,7 +62,5 @@ public class LoginCredentials {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	
-	
-	
+
 }

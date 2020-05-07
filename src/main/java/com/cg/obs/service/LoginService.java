@@ -1,12 +1,12 @@
-package com.cg.service;
+package com.cg.obs.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cg.dao.LoginJpaRepo;
-import com.cg.model.LoginCredentials;
+import com.cg.obs.dao.LoginJpaRepo;
+import com.cg.obs.model.LoginCredentials;
 
 @Service
 public class LoginService {
